@@ -36,5 +36,9 @@ I intend to make the component that the player must rotate visually represent Ho
 
 
 ###Controllers that react to in-game events
+There are also many successful controllers on the market that react to in-game events. The most common of which is haptic feedback, which is present in the majority of modern controllers. There are other successful controllers, such as the Dualshock 4, that respond visually to in-game events. The Dualshock 4 has a light bar that can be programmed to change colour. For example, in Grand Theft Auto 5, it flashes red and blue when you are being chased by the police. The positioning of the light bar (on the back of the PS4 controller) is not very effective, however, as the player is unable to see it changing colour easily unless the room is dark.  
+
+#####Considerations for my design
+If I opt to use an Arduino instead of the Makey-Makey, I intend to incorporate LEDs in my design to further give the player visual feedback. Designing a controller so that it reacts to the game is another way of attempting to increase immersion and engagement. 
 
 ###Controllers that are used in a similar way
