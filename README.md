@@ -21,10 +21,19 @@ TODO add diagram
 ## Market Research (incomplete)
 
 ###Controllers for similar games
-My Kivy game, Hotrod the Beetle, is based on Pac-Man, one of the most successful arcade games. The player controls Pac-Man in the original Pac-Man arcade using a joystick. The use of a joystick provides the player great control, as they can move it in any of the four directions from its central position without taking their hand from the controls. This can also lend insight into how the design of a controller can affect the difficulty of a game. One of the reasons that Pac-Man was so successful is probably because of its simple gameplay and simple controls.
-For example, if the player had to physically turn a part of the controller in order to change directions, turning about face would be significantly more difficult, as the player must turn further than if they were rotating 90 degrees. I will incorporate this into the design of my controller with the intent of adding additional challenge and dynamics through 'punishing' the player for 'chickening out' and turning back. I have to ensure that the design ensures that the playerr still feels in control, however, instead of causing frustration.
+My Kivy game, Hotrod the Beetle, is based on Pac-Man, one of the most successful arcade games. The player controls Pac-Man in the original Pac-Man arcade using a joystick. The use of a joystick provides the player great control, as they can move it in any of the four directions from its central position without taking their hand from the controls. One of the reasons that Pac-Man was so successful is probably because of its simple gameplay and simple controls.
+
+#####Considerations for my design
+The design of a controller can have an impact on the difficulty of a game. Pac-Man would be a lot more difficult if the method of control was more inefficient. For example, if the player had to physically turn a part of the controller in order to change directions, reversing direction would be more difficult as the player must turn further than if they were rotating 90 degrees. I will incorporate this into the design of my controller with the intent of adding additional challenge and dynamics through 'punishing' the player for 'chickening out' and turning back. I have to ensure that the design ensures that the player still feels in control, however, instead of causing frustration.
 
 ###Controllers that represent in-game objects/characters
+There are not many controllers on the market that are designed to represent in-game objects or characters. The most notable ones are designed for music games - including the Guitar Hero guitar, SingStar microphone and Rock Band instruments. These games increase immersion by using a controller that represents in-game elements and requires the player to perform similar actions to how these objects would be used.
+
+I was unable to find any examples of controllers that represent an in-game character. This is likely because under normal circumstances it is not commercially viable to design a controller for one specific game. On the other hand, the lack of such controllers could indicate a gap in the market. For this assignment, we are required to design a controller for one specific game, making this a viable option.
+
+#####Considerations for my design
+I intend to make the component that the player must rotate visually represent Hotrod. This will result in the ingame movements reflecting the representation of him in real life, which could perhaps have the effect of increasing immersion and making the player feel more in control. 
+
 
 ###Controllers that react to in-game events
 
