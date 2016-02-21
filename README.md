@@ -20,7 +20,9 @@ A rough diagram of a top-down x-ray view of how the basic concept would work. Th
 ![topdown diagram](https://github.com/NecroReindeer/comp140-hardware/blob/master/topdown-xray.png)
 
 
-## Market Research (incomplete)
+### Market Research (incomplete)
+I focused my market research on four relevant areas: controllers for similar games, controllers that represent in-game objects, controllers that react to in-game events, and controllers that are used by turning.
+I decided to research the latter three areas after I had started to develop some initial ideas for my design.
 
 ###Controllers for similar games
 My Kivy game, Hotrod the Beetle, is based on Pac-Man, one of the most successful arcade games. The player controls Pac-Man in the original Pac-Man arcade using a joystick. The use of a joystick provides the player great control, as they can move it in any of the four directions from its central position without taking their hand from the controls. One of the reasons that Pac-Man was so successful is probably because of its simple gameplay and simple controls.
@@ -44,3 +46,7 @@ There are also many successful controllers on the market that react to in-game e
 If I opt to use an Arduino instead of the Makey-Makey, I intend to incorporate LEDs in my design to further give the player visual feedback. Designing a controller so that it reacts to the game is another way of attempting to increase immersion and engagement. 
 
 ###Controllers that are used in a similar way
+Many early controllers were used by rotating a component. For example, the popular paddle controller used with Pong. This type of controller was also used for many other popular games and consoles. This controller was not usually used for changing direction, but it still required the same hand movement from the player. Similarly, the driving controller for the popular Atari 2600, as well as modern racing wheels, are also used by twisting. These controllers were designed with the twisting motion dictating the direction of in-game travel. Racing wheels controllers, that are gripped with two hands, are still popular today with driving games. This indicates that rotating an object in order to dictate in-game travel direction is an instinctive and natural movement.
+
+#####Considerations for my design
+A rotating or twisting motion appears to be acceptable for intuitive control of movement direction. However, since Hotrod can only move in four directions, it is necessary to design the controller to that it 'locks' or provides some sort of tactile feedback when it is facing these four directions.
