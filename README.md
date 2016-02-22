@@ -3,10 +3,10 @@ Base repository for the COMP140 Hardware Hacking assignment
 
 ### Design (incomplete)
 I am designing a controller for my Kivy game, Hotrod the Beetle. The player will interact with the game by rotating a part of the controller that looks like Hotrod. This way, the direction that Hotrod turns in the game matches the direction that the player makes him face in real life.
-
+Perhaps a finger sized 'indentation' can be included on the piece that the player must rotate, like those sometimes seen on volume knobs (pic of what I mean coming soon) 
 
 #### Reasoning behind design
-Since the only controls that Hotrod the Beetle uses are left/right/up/down, there is a limited number of options when it comes to designing a controller that is creative yet still intuitive to use. It is important that the controller is designed with these affordances in mind.
+Since the only controls that Hotrod the Beetle uses are left/right/up/down, there is a limited number of options when it comes to designing a controller that is creative yet still intuitive to use.
 
 I tried to think of ways to give the player this control that are more creative than simple buttons, yet still possible to develop given the scope of the assignment and the resources available. A controller that you turn or turn a part of was a possibility. On its own, this is not particularly interesting or engaging, so I began to think of other ways to engage the player or increase immersion.
 
