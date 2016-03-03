@@ -62,5 +62,4 @@ void loop()
         Keyboard.release(directionKeys[i]);
       }
     }
-
 }
