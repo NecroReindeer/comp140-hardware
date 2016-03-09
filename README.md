@@ -1,24 +1,36 @@
 # COMP140 Hardware Hacking
-Base repository for the COMP140 Hardware Hacking assignment
 
-### Design (incomplete)
+## The controller
+### How to use
+The version of Hotrod the Beetle that works with the controller is found [here](https://github.com/NecroReindeer/comp130-mobile-game-app/tree/hardware-hacking-version).
+
+Use the finger indentation to rotate the disc to change Hotrod's direction. The red arrow corresponds to 'up'/'north'. The LEDs on the controller show you where walls are relative to Hotrod's current position.
+
+
+
+## Design and Market Research
+
+### Design
 I am designing a controller for my Kivy game, Hotrod the Beetle. The player will interact with the game by rotating a part of the controller that looks like Hotrod. This way, the direction that Hotrod turns in the game matches the direction that the player makes him face in real life.
-Perhaps a finger sized 'indentation' can be included on the piece that the player must rotate, like those sometimes seen on volume knobs (pic of what I mean coming soon) 
+Perhaps a finger sized 'indentation' can be included on the top of the piece that the player must rotate, to make it easier to use without moving the entire hand.
+There could also be LEDs that react to the game, such as LEDs representing where walls are, or LEDs to signify that you are powered up.
 
 #### Reasoning behind design
-Since the only controls that Hotrod the Beetle uses are left/right/up/down, there is a limited number of options when it comes to designing a controller that is creative yet still intuitive to use.
+Since the only controls that Hotrod the Beetle uses are left/right/up/down, there is a limited number of options when it comes to designing a controller that is creative yet still intuitive and not frustrating to use.
 
-I tried to think of ways to give the player this control that are more creative than simple buttons, yet still possible to develop given the scope of the assignment and the resources available. A controller that you turn or turn a part of was a possibility. On its own, this is not particularly interesting or engaging, so I began to think of other ways to engage the player or increase immersion.
+I tried to think of ways to give the player this control that are more creative than simple buttons, yet still possible to develop given the scope of the assignment and the resources available. A controller that you turn or turn a part of was a possibility. On its own, this is not particularly interesting, so I began to think of other ways to engage the player or increase immersion.
 
-I decided that making the component that the player rotates represent Hotrod would help make the controller more engaging. This way, changes in the physical controller are represented on screen.
-I also decided that it could include LEDs to reflect states in the game. For example, LEDs situated on the compenent representing Hotrod could start flashing when he is powered up. Perhaps LEDs could also be used signify the walls, showing the player which directions Hotrod is moving in or allowed to move in.
+Making the component that the player rotates represent Hotrod could help make the controller more engaging. This way, changes in the physical controller are represented by the character on screen.
+It could also include LEDs to reflect states in the game. For example, LEDs situated on the compenent representing Hotrod could start flashing when he is powered up. Perhaps LEDs could also be used signify the walls, showing the player which directions Hotrod is moving in or allowed to move in.
 
-TODO finish explanation and describing design process  
 
 ####Diagrams
+##### Original design of mechanism
 A rough diagram of a top-down x-ray view of how the basic concept would work. The player rotates Hotrod, on the top. Underneath, out of view from the player, some kind of conductive bar makes contact with bits that complete the circuit for the relative key press. 
-![topdown diagram](https://github.com/NecroReindeer/comp140-hardware/blob/master/topdown-xray.png)
+![topdown diagram](https://github.com/NecroReindeer/comp140-hardware/blob/master/pictures/design/topdown-xray.png)
 
+##### New design of mechanism
+After attempting to construct the controller and being unable to get it to work effectively, I have altered how it is constructed. Now, there are wires for each direction located underneath the disc with Hotrod on, and a wire on the bottom of the disc with Hotrod on. The direction is activated when the two wires come in contact.
 
 ### Market Research (incomplete)
 I focused my market research on four relevant areas: controllers for similar games, controllers that represent in-game objects, controllers that react to in-game events, and controllers that are used by turning.
