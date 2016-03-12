@@ -12,7 +12,10 @@ Use the finger indentation to rotate the disc to change Hotrod's direction. The 
 
 ### Design
 I am designing a controller for my Kivy game, Hotrod the Beetle. The player will interact with the game by rotating a part of the controller that looks like Hotrod. This way, the direction that Hotrod turns in the game matches the direction that the player makes him face in real life.
-Perhaps a finger sized 'indentation' can be included on the top of the piece that the player must rotate, to make it easier to use without moving the entire hand.
+Perhaps a finger sized 'indentation' (see image below for example) can be included on the top of the piece that the player must rotate, to make it easier to use without moving the entire hand.
+
+![The indentation I mean](http://tascam.com/content/images/universal/misc/cd-9010_dial_2.jpg)
+
 There could also be LEDs that react to the game, such as LEDs representing where walls are, or LEDs to signify that you are powered up.
 
 #### Reasoning behind design
