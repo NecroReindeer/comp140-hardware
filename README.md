@@ -30,9 +30,9 @@ A rough diagram of a top-down x-ray view of how the basic concept would work. Th
 ![topdown diagram](https://github.com/NecroReindeer/comp140-hardware/blob/master/pictures/design/topdown-xray.png)
 
 ##### New design of mechanism
-After attempting to construct the controller and being unable to get it to work effectively, I have altered how it is constructed. Now, there are wires for each direction located underneath the disc with Hotrod on, and a wire on the bottom of the disc with Hotrod on. The direction is activated when the two wires come in contact.
+After attempting to construct the controller and being unable to get it to work effectively, I have altered how it is constructed. Now, there are wires for each direction located underneath the disc with Hotrod on, and a wire on the bottom of the disc with Hotrod on. The direction is activated when the two wires come in contact. The other problem with the original idea was that the place that the buttons actually activated was very small, so you had to turn the disc to exactly the right angle. This way, there is no need to be precise.
 
-### Market Research (incomplete)
+### Market Research
 Since my chosen game only uses the four directions, researching modern popular controller designs for multi-buttoned games is not particularly relevant to my project.  
 So I decided to focus my market research on four relevant areas: controllers for similar games, controllers that represent in-game objects, controllers that react to in-game events, and controllers that are used by turning.
 
@@ -42,13 +42,18 @@ My Kivy game, Hotrod the Beetle, is based on Pac-Man, one of the most successful
 #####Considerations for my design
 The design of a controller can have an impact on the difficulty of a game. Pac-Man would be a lot more difficult if the method of control was more inefficient. For example, if the player had to physically turn a part of the controller in order to change directions, reversing direction would be more difficult as the player must turn further than if they were rotating 90 degrees. I will incorporate this into the design of my controller with the intent of adding additional challenge and dynamics through 'punishing' the player for 'chickening out' and turning back. I have to ensure that the design ensures that the player still feels in control, however, instead of causing frustration.
 
+![Original Pac-Man controls](http://www.rotheblog.com/images/arcade/project/pacman/pacman_mame05.jpg)
+
 ###Controllers that represent in-game objects/characters
-There are not many controllers on the market that are designed to represent in-game objects or characters. The most notable ones are designed for music games - including the Guitar Hero guitar, SingStar microphone and Rock Band instruments. These games increase immersion by using a controller that represents in-game elements and requires the player to perform similar actions to how these objects would be used. Likewise, other games that use unconventional controllers tend to be designed specifically with that controller in mind.
+There are not many controllers on the market that are designed to represent in-game objects or characters. The most notable ones are designed for music games - including the Guitar Hero guitar, SingStar microphone and Rock Band instruments. These games increase immersion by using a controller that represents in-game elements and requires the player to perform similar actions to how these objects would be used. Likewise, other games that use unconventional controllers tend to be designed specifically with that controller in mind. There are many games like this on the Wii that use motion controls.
 
 I was unable to find any examples of controllers that represent an in-game character. This is likely because under normal circumstances it is not commercially viable to design a controller for one specific game. On the other hand, the lack of such controllers could indicate a gap in the market. For this assignment, we are required to design a controller for one specific game, making this a more viable option.
 
 #####Considerations for my design
 I intend to make the component that the player must rotate visually represent Hotrod. This will result in the ingame movements reflecting the representation of him in real life, which could perhaps have the effect of increasing immersion and making the player feel more in control. 
+
+![Guitar Hero Controllers](https://upload.wikimedia.org/wikipedia/commons/8/80/Guitar_Hero_series_controllers.jpg)
+![Wii attachments](http://071bc3d04e2671665c74-5a267f839fbe60d0845a37698418bb02.r26.cf5.rackcdn.com/wp-content/uploads/2007/01/wii-sports-attachments.jpg)
 
 ###Controllers that react to in-game events
 There are also many successful controllers on the market that react to in-game events. The most common of which is haptic feedback, which is present in the majority of modern controllers. There are other successful controllers, such as the Dualshock 4, that respond visually to in-game events. The Dualshock 4 has a light bar that can be programmed to change colour. For example, in Grand Theft Auto 5, it flashes red and blue when you are being chased by the police. The positioning of the light bar (on the back of the PS4 controller) is not very effective, however, as the player is unable to see it changing colour easily unless the room is dark.  
