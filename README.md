@@ -81,3 +81,14 @@ Many early controllers were used by rotating a component. For example, the popul
 A rotating or twisting motion appears to be acceptable for intuitive control of movement direction. However, since Hotrod can only move in four directions, it is necessary to design the controller to that it provides some sort of tactile feedback when it is facing these four directions. It is also important the the range of angles that it responds to corresponds to what the player would expect.
 
 ![Paddle Controller](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Atari_Paddle.JPG/800px-Atari_Paddle.JPG)
+
+## Trello Board
+Things in the 'Review' column are what was completed in the names sprint, things in the 'To do' column are things for the next sprint.
+### Label Key
+![Labels](https://github.com/NecroReindeer/comp140-hardware/blob/master/pictures/sprints/Labels.png)
+
+### First Sprint - Electronics and Code
+![Sprint 1](https://github.com/NecroReindeer/comp140-hardware/blob/master/pictures/sprints/Sprint%201%20-%20Electronics%20and%20Code.png)
+
+### Second Sprint - Construction
+![Sprint 2](https://github.com/NecroReindeer/comp140-hardware/blob/master/pictures/sprints/Sprint%202%20-%20Construction.png)
