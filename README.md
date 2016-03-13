@@ -1,11 +1,12 @@
 # COMP140 Hardware Hacking
 
 ## The controller
-####Images and Video
-Please see images relating to the design, development and finished project in the 'pictures' folder.
-See the video in the "controller demo" file.
-The Arduino firmware code is located in the 'controller' folder.
-The version of the game that works with the controller is in the [hardware-hacking-version branch](https://github.com/NecroReindeer/comp130-mobile-game-app/tree/hardware-hacking-version) of the COMP130 Kivy Game.
+
+* Please see images relating to the design, development and finished project in the 'pictures' folder
+* See the video in the "controller demo" file (in the Learning Space submission only).
+* The Arduino firmware code is located in the 'controller' folder.
+* There is also a code snippet of code I added to the game in the 'hotrod snippet.md' file in the 'controller' folder
+* The version of the game that works with the controller is in the [hardware-hacking-version branch](https://github.com/NecroReindeer/comp130-mobile-game-app/tree/hardware-hacking-version) of the COMP130 Kivy Game.
 
 
 #### How to use
