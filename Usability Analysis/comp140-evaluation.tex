@@ -27,13 +27,18 @@
 \abstract{}
 
 \section{Introduction}
-The controller created for Hotrod the Beetle will be evaluated in this report. The controller is used by rotating a disc with an image of Hotrod on, so that he is facing in the direction of intended travel. An image of the controller is shown in Figure~\ref{}.
+The controller created for Hotrod the Beetle will be evaluated in this report. The controller is used by rotating a disc with an image of Hotrod on, so that he is facing in the direction of intended travel. An image of the controller is shown in Figure~\ref{fig:controller}.
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{controller.jpg}
+\caption{The Hotrod game controller}
+\label{fig:controller}
+\end{figure} 
 
 \section{Evaluation Process}
-Due to the circumstances of the review session, the controller was only reviewed by one evaluator. Therefore, it will be difficult to judge whether the reported issues accurately reflect the usability of the controller.  Additionally, it is likely that there will be further usability problems that were not reported by the evaluator. The review process could have been made more effective, accurate and reliable by having a larger number of reviewers. The review process was carried out by following the guidelines provided by Nielsen~\cite{}.
+Due to the circumstances of the review session, the controller was only reviewed by one evaluator. As a result, it is likely that there will be further usability problems that were not reported by the evaluator. The review would have been more effective if there were between three and five evaluators~\cite{nielsen:evaluation}. The review process was otherwise carried out by following the guidelines provided by Nielsen~\cite{nielsen:how}.
 
 \section{Heuristics}
-The heuristics used are found in table~\ref{table:heuristics}. They are adapted from Nielsen's heuristics~\cite{} and Pinelle's heuristics~\cite{} to be more appropriate to a usability analysis of a game controller.
+The heuristics used are found in table~\ref{table:heuristics}. They are adapted from Nielsen's heuristics~\cite{nielsen:heuristics} and Pinelle's heuristics~\cite{pinelle:heuristic} to be made more appropriate to a usability analysis of a game controller.
 
 \begin{table}
 \centering
@@ -62,11 +67,12 @@ The controller was reported to feel unnatural and unresponsive: you must rotate 
 %This issue is likely caused by a disconnect between the design of the controller and the design of the game. The game was designed so that input can be registered before the turning, in order to make the game more controllable and responsive, since the character is always moving. The controller was designed to bridge the gap between reality and the game, by making the character representation on the controller match the orientation of the character on the game. This raises a conflict however, as the best way to play the game is by inputting the next direction before the character gets to a junction, so the controller ends up being in a different orientation to the character until then.
 
 \subsection{Proposed Solution}
-It may not be appropriate to adjust the game so that it responds differently, primarily because this would reduce the usability regarding responsiveness and controllability when playing the game using different control methods.
+It may not be appropriate to adjust the game so that it responds differently, primarily because this would reduce the usability regarding responsiveness and controllability when playing the game using different control methods. Therefore, reducing the controller's size so that the distance it needs to travel to rotate is smaller may help it to feel more responsive. The image of Hotrod still won't correspond to the image on screen most of the time, but it can be thought of as instructing him where to go next.
 
 \section{Conclusion}
 Applying the proposed changes to the design in order to address the issues raised during the review may increase the usability of the controller.
 
 \bibliographystyle{ieeetran}
+\bibliography{comp140-evaluation}
 
 \end{document}
