@@ -51,8 +51,6 @@ The heuristics used are described in table~\ref{table:heuristics}. They are adap
 Responsiveness of controls & Inputs on the controller should be reflected promptly in the game \\ \hline
 Ease of interpretation of system status & The status of the game and the controller should be made clear and easy to interpret without distracting from the game \\ \hline
 Recognition over recall & The functions of each component of controller should be easily recognisable, rather than needing to remember what each button does \\ \hline
-Thing & thing \\ \hline
-Thing & thing \\ \hline
 \end{tabular}
 \caption{Heuristics used in usability analysis of the controller}
 \label{table:heuristics}
@@ -67,7 +65,21 @@ The reviewer reported initially believing that the LEDs were indicating the orie
 An even more effective use of the LEDs could be to flash when the player is powered up. This could be registered in the player's peripheral vision without requiring them to look away from the screen and process complex information.
 
 \section{Design Issue 2: Controls Feel Unresponsive}
-The controller was reported to feel unnatural and unresponsive: you must rotate the controller \textit{before} the junction that the character is expected to turn on, otherwise the character would continue past the turning. This could be caused by a disconnect between the game's design and the controller's design. The game compensates for the character's continuous movement by allowing input to be registered before a turning, allowing the player to feel in control. Not only is this the optimal way to play, but the time taken to physically manipulate the controller means that this play-style is enforced. However, this results in the orientation of the image on the controller rarely corresponding to the orientation of the character on-screen. 
+The controller was reported to feel unresponsive: you must rotate the controller \textit{before} the desired turning, otherwise the character will continue past. The observations are described in Table~\ref{table:issue2}. This could be caused by a disconnect between the game's design and the controller's design. The game compensates for the character's continuous movement by allowing input to be registered before a turning, allowing the player to feel in control. Not only is this the optimal way to play, but the time taken to physically manipulate the controller means that this play-style is enforced. However, this results in an inconsistency between the controller's image and the game's image.
+
+\begin{table}
+\centering
+\begin{tabular}{| p{6cm} | p{6cm} |}
+\hline
+\textbf{Heuristic} & \textbf{Observation} \\ \hline
+Responsiveness of controls
+ & The controller creates a feeling of unresponsiveness. It feels natural to turn the controller at the time the character is intended to turn. However, doing this results in the movement not being registered until after the turning. \\ \hline
+Ease of interpretation of system status
+ & The way the controller should be used is confusing. If the optimal play-style is used, the controller does not match what is seen on screen. This makes the player feel that turning the controller at the instant a direction change is desired is how it should be used, resulting in issues concerning lack of responsiveness. \\ \hline
+\end{tabular}
+\caption{Observations relating to heuristics relevant to this design issue}
+\label{table:issue2}
+\end{table}
 
 \subsection{Proposed Solutions}
 It may not be appropriate to adjust the game so that it responds to input differently, primarily because this would reduce the responsiveness and control provided when playing the game using different control methods. Therefore, reducing the controller's size so that the distance it needs to travel to rotate is smaller may help increase the feeling of responsiveness. The image of Hotrod still won't correspond to the image on screen most of the time, but it can be thought of as instructing him where to go next.
